@@ -20,7 +20,7 @@ I created a simple typescript react project from a template in `/tsx-frontend`.
 
 I then linked to the generated package using `yarn add link:./../rust-wasm/pkg`.
 
-I then modified the startup in `index.tsx` to call `inti` before rendering `init().then(() => ...)`.
+I then modified the startup in `index.tsx` to call `inti` before rendering (`init().then(() => ...)`).
 
 ### Build
 
