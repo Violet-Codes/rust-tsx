@@ -1,6 +1,6 @@
 # Rust-tsx example
 
-This is an example project detailing a minimal projest structure to use rust that has been compiled to WASM inside a typescript project.
+This is an example project detailing a minimal project structure to use rust that has been compiled to WASM inside a typescript project.
 
 ## What I did
 
