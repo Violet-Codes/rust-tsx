@@ -12,7 +12,7 @@ I created a new library using `cargo init --lib` in `/rust-wasm` which I will us
 
 I added `wasm_bindgen` to my cargo dependencies so I can use the `#[wasm_bindgen]` macro.
 
-After using `#[wasm_bindgen]` to expose rust functions and define external functions I ran `wasm-pack build` to the package.
+After using `#[wasm_bindgen]` to expose rust functions and define external functions I ran `wasm-pack build --target web` to the package.
 
 ### Node
 
@@ -24,7 +24,7 @@ I then modified the startup in `index.tsx` to call `inti` before rendering `init
 
 ### Build
 
-The only change to normal building is that before running `yarn start` or `yarn build` I need to run `wasm-pack`.
+The only change to normal building is that before running `yarn start` or `yarn build` I need to run `wasm-pack build --target web`.
 
 ## References
 
